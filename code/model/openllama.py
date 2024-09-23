@@ -153,6 +153,9 @@ def find_first_file_in_directory(directory_path):
 
 
 PROMPT_START = '### Human: <Img>'
+
+#NOTE:此文件和此class是整个论文的核心模型部分，
+# 作者组合了自己的promptLearner学习小模型和llama大语言模型，来实现缺陷检测
 class OpenLLAMAPEFTModel(nn.Module):
 
     '''LoRA for LLaMa model'''

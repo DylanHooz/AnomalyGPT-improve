@@ -7,6 +7,8 @@ from PIL import Image
 import numpy as np
 import argparse
 
+#NOTE：这里是对Mvtec缺陷检测数据集的执行
+
 parser = argparse.ArgumentParser("AnomalyGPT", add_help=True)
 # paths
 parser.add_argument("--few_shot", type=bool, default=True)

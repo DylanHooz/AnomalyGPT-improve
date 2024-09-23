@@ -9,7 +9,7 @@ import csv
 import argparse
 from tqdm import tqdm
 
-
+#NOTE：这里是对Visa工业异常检测数据集的测试脚本
 parser = argparse.ArgumentParser("AnomalyGPT", add_help=True)
 # paths
 parser.add_argument("--few_shot", type=bool, default=True)
